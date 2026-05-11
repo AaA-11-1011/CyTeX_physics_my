@@ -7,5 +7,6 @@
 
 .DS_Store
 
-out/*
+src/out/*
+src/data/*
 !out/*.pdf
