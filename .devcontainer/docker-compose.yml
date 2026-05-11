@@ -1,10 +1,10 @@
 services:
   cytex-texlive:
-    image: ran350/cytex-texlive:0.1.0
-    # build: . # if you want to build the image locally
+    image: aa9991/cytex-texlive:0.1.0
+    build: . # if you want to build the image locally
     volumes:
-      - ../:/workspaces/CyTeX
-      - ./.latexmkrc:/root/.latexmkrc
+      - ..:/workspaces/CyTeX
+      # 個別のマウントはエラーの元なので削除しました
     tty: true
     environment:
       SHELL: "/bin/bash"
