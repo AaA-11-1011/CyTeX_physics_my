@@ -13,7 +13,7 @@ $makeindex = 'mendex %O -o %D %S';
 
 # DVI / PDF
 $dvipdf = 'dvipdfmx %O -o %D %S';
-$pdf_mode = 3;
+$pdf_mode = 4;
 
 # preview
 $pvc_view_file_via_temporary = 0;
