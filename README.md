@@ -65,3 +65,13 @@ CyTeX（読み方：さいてふ）は、DevContainer を用いた、環境構�
 ## Author
 
 [Ran350](https://github.com/Ran350/)
+
+
+---
+本リポジトリはcytexに
+- texlive-scienceを追加しphysicsパッケージに対応
+- デフォルトをlualatexに変更
+- レポート用テンプレート、画像を縦横に張るスニペットを追加
+
+したものです。
+
