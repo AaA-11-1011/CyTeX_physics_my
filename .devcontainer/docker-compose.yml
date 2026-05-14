@@ -1,7 +1,7 @@
 services:
   cytex-texlive:
     image: aa9991/cytex-texlive:0.1.0
-    build: . # if you want to build the image locally
+    #build: . # if you want to build the image locally
     volumes:
       - ..:/workspaces/CyTeX
       # 個別のマウントはエラーの元なので削除しました
