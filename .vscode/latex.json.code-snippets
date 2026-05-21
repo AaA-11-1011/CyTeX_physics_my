@@ -202,7 +202,7 @@
     "Luakatex_Physics_Report":{
 			"prefix": "report_phy",
 			"body": [
-			"% !TEX program = platex %platexを使う%,
+			"% !TEX program = lualatex",
 			"\\documentclass[11pt,a4paper]{ltjsarticle}",
 			"%",
 			"\\usepackage{amsmath,amssymb}",
@@ -239,7 +239,7 @@
 		"LuaLaTeX Beamer Metropolis": {
 			"prefix": "beamerlualatex",
 			"body": [
-				"% !TEX program = platex %platexにするとき有効化",
+				"% !TEX program = lualatex",
 				"\\documentclass{beamer}",
 				"%\\documentclass[aspectratio=169]{beamer}%縦横比16:9",
 
