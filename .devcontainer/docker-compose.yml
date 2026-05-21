@@ -4,7 +4,6 @@ services:
     #build: . # if you want to build the image locally
     volumes:
       - ..:/workspaces/CyTeX
-      # 個別のマウントはエラーの元なので削除しました
     tty: true
     environment:
       SHELL: "/bin/bash"
